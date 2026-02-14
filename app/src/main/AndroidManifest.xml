@@ -13,18 +13,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Articles">
-        <activity  android:name=".SplashScreen"
+        <activity
+            android:name=".ui.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SplashScreen"
             android:exported="true"
             android:theme="@style/SplashTheme">
+
             <!-- THIS makes splash screen the launcher activity -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>        </activity>
-        <!-- MAIN ACTIVITY - Called by splash screen -->
-        <activity            android:name=".MainActivity"
+            </intent-filter>
+        </activity> <!-- MAIN ACTIVITY - Called by splash screen -->
+        <activity
+            android:name=".MainActivity"
             android:exported="false"
-        android:theme="@style/Theme.Articles" />
+            android:theme="@style/Theme.Articles" />
     </application>
 
 </manifest>

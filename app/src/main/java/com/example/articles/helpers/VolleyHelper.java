@@ -7,8 +7,6 @@ import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 
 public class VolleyHelper {
-
-
     private static VolleyHelper instance;
     private RequestQueue requestQueue;
     private static Context ctx;
