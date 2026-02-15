@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Articles">
         <activity
-            android:name=".ui.DetailActivity"
+            android:name=".ui.HomeActivity$DetailActivity"
             android:exported="false" />
         <activity
             android:name=".ui.HomeActivity"
