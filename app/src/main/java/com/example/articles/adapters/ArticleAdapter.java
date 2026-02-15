@@ -10,9 +10,9 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.example.articles.ui.DetailActivity;
 import com.example.articles.models.Article;
 import com.example.articles.R;
-import com.example.articles.ui.HomeActivity;
 
 import java.util.List;
 
@@ -43,7 +43,7 @@ public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.ArticleV
 
         holder.itemView.setOnClickListener(v -> {
 
-            Intent intent = new Intent(v.getContext(), HomeActivity.DetailActivity.class);
+            Intent intent = new Intent(v.getContext(), DetailActivity.class);
 
             intent.putExtra("title", current.getTitle());
             intent.putExtra("body", current.getBody());
