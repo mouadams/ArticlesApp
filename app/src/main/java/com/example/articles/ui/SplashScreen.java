@@ -12,7 +12,7 @@ import com.example.articles.MainActivity;
 import com.example.articles.R;
 
 public class SplashScreen extends AppCompatActivity {
-    private static final int SPLASH_DURATION = 5000; // 5 seconds
+    private static final int SPLASH_DURATION = 3000; // 3 seconds
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
